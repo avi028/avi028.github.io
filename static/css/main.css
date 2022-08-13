@@ -3,7 +3,7 @@ body {
     font-family: Roboto;
     background-color: aliceblue;
     background-size:contain;
-    background-image: url('background4.jpg');
+    background-image: url('static/images/background4.jpg');
     background-repeat: round;
 }  
 
