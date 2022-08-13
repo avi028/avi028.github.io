@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BLog Site</title>
+        <meta name="viewport" content="width=device-width ,initial-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!--
+                Fixed black top nav bar ..
+            -->
+            <div class="nav">
+                <div class="nav-items">
+
+                </div>
+            </div>
+        </header>
+        <!--
+            White Pages with some background..
+        -->
+        <div class="page-list">
+            <!--  PAGE 1-->
+            <div class="page" id="page_motivation">
+                <!-- blog title -->
+                <div class="head-block">
+                       <h1>Baby Server : Motivation</h1> 
+                </div>
+                <!--- blog date -->
+                <div class="date-block">
+                        Aug 13 , 2020
+                </div>
+                <!--  content -->
+                <div class="content-block">
+                    <div class="content">
+                        Have you ever wondered how your chrome or firefox or any other browsers grab the beautiful webpages 
+                        from some remote servers? Well I did, and driven by curiosity, I rampaged the internet to find the 
+                        big picture behind the servers. 
+
+                        <div id="questions">
+
+                        1. How did the servers transfered the html to browser?<br>
+                        2. How the GET and POST methods worked ? <br>
+                        .......<br>
+                        </div>
+                        After reading 10's of blogs and youtube videos I landed on <strong>Sloan Kelly's</strong>  this video.
+                        <div class="content-video">
+                            <iframe 
+                                width="500" height="315" 
+                                src="https://www.youtube.com/embed/Kc1kwm1WyVM" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; cl ipboard-write; 
+                                encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>                       
+                        </div>
+                        <!-- help from  credits https://github.com/Dungyichao/http_server -->
+                        This inspired me to write my own server from scratch. The basic server hosted the static pages well.<br> 
+                        <strong style="font-size:20px">But</strong> 
+                        <div id="questions">
+                                3. How django and php changed the content of pages as per the user on the fly?<br>
+                            .......<br>
+                        </div>
+                        I wanted images videos and most importantly generating customised html pages from templates. And again the second round of 
+                        rampage started but after a month of work it wokred .It not only helped me understand the basics of HTTP protocol 
+                        but also many aspects of C++ programming like <i> <strong>templates</strong> , <strong>Reflection</strong> </i>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <!--  PAGE 2-->
+            <div class="page" id="page_Introduction">
+                <!-- blog title -->
+                <div class="head-block">
+                       <h1>Baby Server : Background</h1> 
+                </div>
+                <!--- blog date -->
+                <div class="date-block">
+                        Aug 14 , 2020
+                </div>
+                <!--  content -->
+                <div class="content-block">
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+        </div>
+        <footer>
+            <div class="credits">
+            </div>
+        </footer>
+    </body>
+</html>
